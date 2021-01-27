@@ -11,6 +11,7 @@
   <!-- 9975 is a skier emoji-->
   <title>Zach's Personal Site &#x1f3c2;</title>
   <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/party.js"></script>
 </head>
 
 <!--add style to body for inline css-->
@@ -43,9 +44,9 @@
   <hr>
   <h3>Education</h3>
   <ul>
-    <li>University School</li>
-    <li>George Washington University</li>
-    <li><a href="https://www.colorado.edu/cs/">University of Colorado Boulder</a></em></li>
+    <li>George Washington University, Elliott School of International Affairs</li>
+    <li><em>Bachelor of Arts degree in International Affairs with a concentration in International Economics</em></li>
+    <li>University of Colorado Boulder, College of Engineering and Applied Science<a href="https://www.colorado.edu/cs/">University of Colorado Boulder</a></em></li>
   </ul>
 
   <hr>
@@ -71,8 +72,28 @@
   </table>
   <ul>
     <li>Dollar Bank</li>
-    <li>Vectra Bank Colorado</li>
-    <li>Internships
+    <li>Vectra Bank Colorado</li><ul>
+      <li>Underwrote both commercial real estate and corporate/industrial credit for institutional bank customers with proposed/existing credit expo
+        sure up to $50 million.  
+      </li>
+      <li>Collaborated with relationship manager, clients and back office to underwrite individual loans in excess of $25 million.</li>
+      <li>Helped secure $30 million in aggregate loans to a major airport concessionaire by building an advanced Excel model to appraise new airport
+        concession concepts (traditional collateral was not available to secure the loan). 
+      </li> 
+      <li>Updated Enterprise Valuations of businesses using S&P Capital IQ. Utilized concepts of direct capitalization and discounted cash flows to 
+        determine bank's relative collateral position.
+      </li> 
+      <li>Analyzed and verified applicable financial and legal documents including, but not limited to, financial statements, tax returns, rent roll
+        s, leases, and government agreements, to determine a borrower's total wherewithal and repayment capacity on a historical and/or proforma basis.
+      </li> 
+      <li>Compiled borrower background information, financial analysis (spreads, ratios, collateral, guarantors), industry/market analysis, global
+        cash flow, risk rating, supporting documents, and narrative into loan request packages, which were presented by lending officers to the bank's loan approval committee.
+      </li> 
+      <li>Maintained a work-load pipeline in Microsoft Access for credit management and lending officers. </li>
+      <li>Assisted lending officers with credit structuring, customer calls, covenant testing/monitoring and term negotiations. </li>
+
+    </ul>
+          <li>Internships
       <ul>
         <li>Federal Reserve Bank of Cleveland</li>
       </ul>
@@ -133,11 +154,25 @@
   <div>
     <p>My personal website includes a built in productivity app for public use.</p>
     <h2>Welcome to the Coffee Break App</h2>
+    <label for="bt">How long would you like to focus? (time in seconds)</label>
+    <input type="text" id="breaktime" name="bt">
     <button id="cb" class="favorite styled"
-        type="button" onclick="start()">
+        type="button">
       Let's get to work!
     </button>
     <script src="scripts/coffee.js"></script>
+  </div>
+  <div>
+    <p>party on!</p>
+    <button id="party" class="favorite styled"
+    type="button" onclick="functionName()">
+  Party TIME!
+</button>
+<script src="scripts/party.js"> document.getElementById("party").addEventListener("click")</script>
+  </div>
+
+  <div class="thumbnail-container">
+    <iframe id="pym-fivethirtyeight_embed_327" title="The Latest Presidential Poll Averages" src="https://projects.fivethirtyeight.com/polls/promo.html" width="300" height="300" scrolling="no"></iframe>
   </div>
 </body>
 
