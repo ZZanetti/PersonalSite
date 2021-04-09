@@ -49,11 +49,17 @@ p {
 .top-container {
     background-color: #EAF6F6;
     position: relative;
-    background-image: url("../images/Tina.jpeg");
+    background-image: url("../images/beach.jpeg");
+    /*
     background-size: 100px 100px;
-    border: 10px solid white;
+     border: 10px solid white;
     padding: 150px 100px 400px 100px;
     background-origin: content-box;
+    */
+    padding: 150px 100px 100px 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
 }
 
 .middle-container {
