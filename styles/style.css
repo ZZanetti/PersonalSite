@@ -1,38 +1,38 @@
 body {
-    color: #40514E;
+    color: #1b1717;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
 
 hr {
-    border: dotted #a4acac 6px;
+    border: dotted #1b1717 6px;
     border-top: none;
     width: 4%;
     margin: 100px auto;
 }
 a {
-    color: #11999E;
+    color: #ce1212;
 }
 
 a:hover {
-    background-color: azure;
+    background-color: #810000;
 }
 
 h1 {
     font-size: 64px;
-    color: #2d7979;
+    color: #810000;
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
 }
 h2 {
     font-size: 32px;
-    color: #2d7979;
+    color: #810000;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 10px;
 }
 h3 {
-    color: #11999E;
+    color: #ce1212;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -40,14 +40,15 @@ p {
     line-height: 2;
 }
 .greeting {
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: #EEEBDD;
+    opacity: .5;
     border-radius: 100px;
     border-style: dotted;
     border-color: black;
 }
 
 .top-container {
-    background-color: #EAF6F6;
+    background-color: #EEEBDD;
     position: relative;
     background-image: url("../images/beach.jpeg");
     /*
@@ -63,8 +64,7 @@ p {
 }
 
 .middle-container {
-    background-color:white;
-   
+    background-color:#EEEBDD;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -80,7 +80,7 @@ p {
 }
 
 .profile p {
-    color: #40514E;
+    color: #1b1717;
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ p {
 .skill-row {
     text-align: left;
     margin: 100px auto 150px auto;
-    color: #40514E;
+    color: #1b1717;
     width: 50%;
 }
 
@@ -120,19 +120,19 @@ p {
 }
 
 .bottom-container {
-    background-color:#afcfd0;
+    background-color:#810000;
     position: relative;
     padding-top: 10px;
     padding-bottom: 100px;
 }
 
 .btn {
-    background: #2d7979;
-    background-image: -webkit-linear-gradient(top, #2d7979, #11999E);
-    background-image: -moz-linear-gradient(top, #2d7979, #11999E);
-    background-image: -ms-linear-gradient(top, #2d7979, #11999E);
-    background-image: -o-linear-gradient(top, #2d7979, #11999E);
-    background-image: linear-gradient(to bottom, #2d7979, #11999E);
+    background: #810000;
+    background-image: -webkit-linear-gradient(top, #810000, #ce1212);
+    background-image: -moz-linear-gradient(top, #810000, #ce1212);
+    background-image: -ms-linear-gradient(top, #810000, #ce1212);
+    background-image: -o-linear-gradient(top, #810000, #ce1212);
+    background-image: linear-gradient(to bottom, #810000, #ce1212);
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
@@ -144,11 +144,11 @@ p {
   }
   
   .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #3498db);
+    background-image: -moz-linear-gradient(top, #ffffff, #3498db);
+    background-image: -ms-linear-gradient(top, #ffffff, #3498db);
+    background-image: -o-linear-gradient(top, #ffffff, #3498db);
+    background-image: linear-gradient(to bottom, #ffffff, #3498db);
     text-decoration: none;
   }
