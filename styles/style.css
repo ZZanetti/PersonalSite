@@ -40,11 +40,14 @@ p {
     line-height: 2;
 }
 .greeting {
+    /*
     background-color: #EEEBDD;
     opacity: .5;
     border-radius: 100px;
     border-style: dotted;
-    border-color: black;
+    border-color: black;    
+    */
+
 }
 
 .top-container {
@@ -60,7 +63,7 @@ p {
     padding: 150px 100px 100px 100px;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 60vh;
 }
 
 .middle-container {
