@@ -13,6 +13,19 @@ hr {
 }
 a {
     color: #ce1212;
+    position: relative;
+}
+.top-container span {
+    display: none; 
+    position: absolute;
+    left: 5px;
+    top: 5px; 
+    color: #1b1717; 
+    background: rgba(240, 230, 179, 0.5); 
+    padding: 5px;}
+.top-container:hover span {
+    display: block; 
+    text-align: center;
 }
 
 a:hover {
