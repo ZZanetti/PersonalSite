@@ -53,7 +53,8 @@ p {
 .top-container {
     background-color: #EEEBDD;
     position: relative;
-    background-image: url("../images/beach.jpeg");
+    border: 20px solid #1b1717;
+    background-image: url("../images/IMG_0567.jpeg");
     /*
     background-size: 100px 100px;
      border: 10px solid white;
