@@ -117,7 +117,8 @@ p {
 .leftvid {
     float:left;
     margin-right: 30px;
-    height: 10em;
+    width: 30%;
+    height: auto;
     border-radius: 30%;
 }
 
